@@ -34,15 +34,15 @@ The configuration file should contain a json document with these properties:
 
 ````
 { 
-	"token":"FLOW-API-KEY",
-	"week-count": 13,
-	"team": "institutional",
-	"date-format": "%Y-%m-%d",
-	"base-url": "https://flow.pluralsight.com/v3/customer/core",
+    "token":"FLOW-API-KEY",
+    "week-count": 13,
+    "team": "institutional",
+    "date-format": "%Y-%m-%d",
+    "base-url": "https://flow.pluralsight.com/v3/customer/core",
     "smtp-server": "SMTP server name or IP",
     "email-from": "sender@domain.com",
     "email-suppress": "N",
-	"compare-teams": "retail-alchemists,retail-avengers,retail-weavers",
+    "compare-teams": "retail-alchemists,retail-avengers,retail-weavers",
     "team-leads": "team.lead.1@domain.com,team.lead.2@domain.com"
 }
 ````
